@@ -1,0 +1,233 @@
+html {
+  font-size: 62, 5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  padding-top: 13%;
+}
+header div div {
+  margin-bottom: 12%;
+}
+header div div p {
+  font-size: 1.6rem;
+  margin-bottom: 1%;
+}
+header div div h1 {
+  font-size: 8.8rem;
+  margin-bottom: -3.3%;
+}
+header div div h1:nth-of-type(2) {
+  margin-bottom: 1%;
+}
+header div nav {
+  display: flex;
+  justify-content: space-between;
+}
+header div nav img {
+  margin-left: 5%;
+}
+header div nav button {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5% 2.5%;
+  font-size: 2rem;
+  margin-right: 5%;
+}
+
+main .black.landkarte {
+  background-color: black;
+  color: white;
+  background-image: url(../img/map.svg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  padding: 10% 10% 10% 5%;
+}
+main .black.landkarte h2 {
+  font-size: 8.8rem;
+  margin-bottom: 10%;
+}
+main .black.landkarte div {
+  margin-bottom: 6%;
+}
+main .black.landkarte div p {
+  font-size: 1.6rem;
+}
+main .black.landkarte div h4 {
+  font-size: 6.4rem;
+}
+main section {
+  background-color: white;
+  color: black;
+  position: relative;
+}
+main section img {
+  width: 300px;
+  height: 200px;
+}
+main section .stuck {
+  margin: 15% 0 30% 30%;
+  width: 43%;
+}
+main section .stuck h2 {
+  font-size: 8.8rem;
+  line-height: 70%;
+  margin-bottom: 2%;
+}
+main section .stuck p {
+  font-size: 1.6rem;
+}
+main section .picDruckmaschine {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  right: 160px;
+  top: -100px;
+}
+main section .picDruck {
+  position: absolute;
+  width: 240px;
+  height: 160px;
+  left: 80px;
+  top: 210px;
+}
+main section .picBedShirt {
+  position: absolute;
+  width: 240px;
+  height: 160px;
+  left: 70%;
+  top: 740px;
+}
+main section .picShirts {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  left: calc(50% - 150px - 250px);
+  top: 804px;
+}
+main section .picFarbbad {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  left: 70%;
+  top: 1230px;
+}
+main section .picDruckmuster {
+  position: absolute;
+  width: 240px;
+  height: 160px;
+  left: 0px;
+  top: 1134px;
+}
+main section .shirts {
+  margin: 15% 0 10% 30%;
+  width: 43%;
+  font-size: 1.6rem;
+}
+main section .picGuys {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  right: 240px;
+  top: 1570px;
+}
+main .black {
+  position: relative;
+}
+main .black .goldenBear {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .black .goldenBear div {
+  margin: 0 7% 0 0;
+}
+main .black .goldenBear div .small {
+  font-size: 1.6rem;
+}
+main .black .goldenBear div h2 {
+  font-size: 8.8rem;
+}
+main .black .goldenBear div {
+  margin-left: 5%;
+  width: 45%;
+}
+main .black .goldenBear div .middle {
+  font-size: 3.2rem;
+}
+main .black .goldenBear div .small {
+  font-size: 1.6rem;
+}
+main section {
+  padding: 10% 10% 10% 5%;
+}
+main section .goldenBear {
+  display: flex;
+  justify-content: space-between;
+}
+main section .goldenBear div {
+  margin: 0 7% 0 0;
+}
+main section .goldenBear div p {
+  font-size: 1.6rem;
+}
+main section .goldenBear div h2 {
+  font-size: 8.8rem;
+}
+main section .goldenBear div {
+  margin-left: 5%;
+  width: 45%;
+}
+main section .goldenBear div .middle {
+  font-size: 3.2rem;
+}
+main section .goldenBear div .small {
+  font-size: 1.6rem;
+}
+.black {
+  background-color: black;
+  padding: 10% 10% 10% 5%;
+  color: white;
+}
+.black .footer {
+  width: 49%;
+}
+.black .footer p {
+  font-size: 1.6rem;
+  margin-bottom: 4%;
+}
+.black .footer h3 {
+  font-size: 3.2rem;
+  margin-bottom: 4%;
+}
+.black .footer button {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5% 2.5%;
+  font-size: 2rem;
+  margin: 0 5% 15% 0;
+}
+.black div .small {
+  font-size: 1.6rem;
+}
+.black div .small {
+  font-size: 1.6rem;
+}
+.black div div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*# sourceMappingURL=style.css.map */
